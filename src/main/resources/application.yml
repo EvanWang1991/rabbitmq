@@ -1,0 +1,9 @@
+server:
+  port: 18082
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    virtual-host: /mall
+    username: test
+    password: test
+    publisher-confirms: true #如果对异步消息需要回调必须设置为true
